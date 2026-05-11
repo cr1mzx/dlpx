@@ -6,8 +6,11 @@
   Удобный установщик для интеграции <a href="https://github.com/yt-dlp/yt-dlp"><b>yt-dlp</b></a> в контекстное меню Windows
 </p>
 
+> [!NOTE]
+> Для полноценной работы рекомендуется установить [ffmpeg](https://www.ffmpeg.org/) и [Node.js](https://nodejs.org/en)
+
 ## ⚙️ Установка
-1. Скачайте архив с программой из раздела **Releases**.
+1. Скачайте архив `dlpx.zip` или `dlpx.7z` из раздела **Releases**.
 2. Распакуйте в удобную вам папку.
 3. Запустите `Manager.bat` и выберите цвет иконок.
 4. Готово! Теперь по нажатию ПКМ в любом месте проводника Windows у вас появится пункт **"Скачать"**.
@@ -29,3 +32,11 @@
 Если программа уже установлена, вы можете в любой момент снова запустить `Manager.bat`, чтобы:
 * **Сменить цвет иконок**
 * **Обновить yt-dlp** — скрипт автоматически проверит наличие новой версии и скачает её. (Старая версия будет перемещена в папку `old`)
+
+Если медиа, которое вы хотите скачать, приватное, вы можете скачать cookies с сайта (например, через расширение [Get cookies.txt LOCALLY](https://chromewebstore.google.com/detail/get-cookiestxt-locally/cclelndahbckbenkjhflpdbgdldlbecc)) и поместить файл `cookies.txt` в ту же папку, куда вы хотите скачать медиа. В таком случае скрипт увидит `cookies.txt` и сможет скачать приватное медиа.
+
+> [!NOTE]
+> Данный скрипт работает только в контекстном меню типа Windows 10. Для удобства рекомендуем включить старое контекстное меню если вы используете Windows 11
+
+## Поддержка
+<img src="https://gist.githubusercontent.com/m-xim/255a3ef36c886dec144a58864608084c/raw/71da807b4abbd1582e511c9ea30fad27f78d642a/cloudtips_icon.svg" alt="Cloudtips" width="18"/> **CloudTips**: [pay.cloudtips.ru/p/4e8a0a8a](https://pay.cloudtips.ru/p/4e8a0a8a)
